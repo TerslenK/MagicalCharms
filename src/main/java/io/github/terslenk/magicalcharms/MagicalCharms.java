@@ -24,7 +24,7 @@ public class MagicalCharms extends AbstractAddon implements SlimefunAddon {
     }
 
     @Override
-    protected void enable() {
+    public void enable() {
         getLogger().info("⎯⎯⎯⎯⎯⎯⎯⎯Magical Charms⎯⎯⎯⎯⎯⎯⎯⎯");
         getLogger().info("Version: v" + getPluginVersion());
         getLogger().info("⎯⎯⎯⎯⎯⎯⎯⎯⎯Information⎯⎯⎯⎯⎯⎯⎯⎯⎯");
@@ -41,7 +41,7 @@ public class MagicalCharms extends AbstractAddon implements SlimefunAddon {
     }
 
     @Override
-    protected void disable() {
+    public void disable() {
         i = null;
     }
 

@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>io.github.terslenk.magicalcharms</groupId>
     <artifactId>MagicalCharms</artifactId>
-    <version>Unofficial</version>
+    <version>UNOFFICIAL</version>
 
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
