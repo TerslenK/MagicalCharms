@@ -1,20 +1,21 @@
-# Slimefun4 Addon
-This is an example Repository for a generic Slimefun4 Addon.
-In the top left is a button "Use this template", click this to create your own Addon for Slimefun4 using this basic template.
+# Magical Expansion
+An addon that lets you craft & use some magical charms
 
-## How to create your own addon.
-This is a template repository that you can use to create your own Slimefun4 Addon.<br>
-We have also written an extensive step-by-step tutorial which you can find here:<br>
-https://github.com/Slimefun/Slimefun4/wiki/Developer-Guide
+## What Is This Addon About
+I used "HotbarPets" addon so long, and I quite like how it works.
+But it had some limitations, so I wanted to create my version of "HotbarPets"
 
-## Changing some important things
-Navigate to `src/main/java` and rename the package and the .java File to your liking.<br>
-Suggestion: "me.yourname.yourproject" (all lower case) and "ProjectName.java"<br>
-Example: "me.thebusybiscuit.cooladdon" and "CoolAddon.java"
+## How Do I Get Charms?
+First you need to create 3 machines called:
+***
+ * **Cosmic Reformer**
+ * **Heat Extractor**
+ * **Void Manuplator**
+***
 
-Navigate to `src/main/resources/plugin.yml` and change the "author" and "main" attributes.
-You may also want to change the description to something meaningful.
+After you craft these machines put them into their respective area.
+Then you can use the outputs of the machines to create ```Elemental Core```.
+After you craft it you need to use **Charm Infuser** to infuse core into special charms.
+***
+You can get more info from in-game guide.
 
-Navigate to `pom.xml` and change the group id to "me.%Your name%" and change the artifact id to the name of your Project.
-
-After that you are good to go, you can now start developing your own Addon for Slimefun4.
